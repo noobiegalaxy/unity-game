@@ -573,6 +573,18 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &118591971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 118591963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9653b46ef11f4f84a81c743e02a54a86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &136622987 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 59ec2e3fa556d2a4aa126ac296902aba, type: 3}
@@ -1912,7 +1924,39 @@ MonoBehaviour:
   fireRate: 5
   fpscam: {fileID: 963194227}
   muzzelFlash: {fileID: 608770817}
-  impactEffect: {fileID: 0}
+  impactEffect: {fileID: 1791409992}
+--- !u!95 &581255420
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581255417}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 98ab9f86a48cc004abf25afab83adccd, type: 2}
+  m_CullingMode: 1
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &581255421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581255417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d860220fa5e7c284d98a4f46980bc309, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &608770814
 GameObject:
   m_ObjectHideFlags: 0
@@ -7802,6 +7846,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3c28defb682cf1e44b48f28de30fb3c5, type: 3}
       propertyPath: m_Name
       value: karambit
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3c28defb682cf1e44b48f28de30fb3c5, type: 3}
+      propertyPath: m_TagString
+      value: meelee
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
